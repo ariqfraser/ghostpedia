@@ -1,0 +1,20 @@
+{
+    "name": "PJDS",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "node --experimental-specifier-resolution=node ./dist/main.js",
+        "build": "tsc",
+        "serve": "tsc && npm run start"
+    },
+    "keywords": [],
+    "author": "Ariq Fraser",
+    "license": "ISC",
+    "devDependencies": {
+        "tslib": "^2.6.2",
+        "typescript": "^5.1.6"
+    },
+    "dependencies": {
+        "puppeteer": "^21.1.0"
+    }
+}
